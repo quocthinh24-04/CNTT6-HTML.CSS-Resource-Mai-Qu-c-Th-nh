@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Form Đặt Lịch Tư Vấn Học Tập</h2>
+
+    <form action="" method="POST">
+        <div>
+            <label for="fullname">Họ và tên:</label>
+            <input type="text" id="fullname" name="fullname">
+        </div>
+
+        <div>
+            <label for="datetime">Chọn ngày giờ:</label>
+            <input type="datetime-local" id="datetime" name="datetime">
+        </div>
+
+        <div>
+            <label for="service">Loại dịch vụ:</label>
+            <select id="service" name="service">
+                <option value="tu-van">Tư vấn học tập</option>
+                <option value="huong-nghiep">Hướng nghiệp</option>
+            </select>
+        </div>
+
+        <div>
+            <label for="note">Ghi chú:</label>
+            <textarea id="note" name="note"></textarea>
+        </div>
+
+        <div>
+            <button type="submit">Đặt lịch</button>
+        </div>
+    </form>
+</body>
+</html>

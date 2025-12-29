@@ -8,33 +8,23 @@
 <body>
     <h2>Form Đặt Lịch Tư Vấn Học Tập</h2>
 
-    <form action="" method="POST">
-        <div>
-            <label for="fullname">Họ và tên:</label>
-            <input type="text" id="fullname" name="fullname">
-        </div>
+    <form action="">
+        <label for="name">Họ và tên:</label>
+        <input type="text" id="name" name="name"> <br>
 
-        <div>
-            <label for="datetime">Chọn ngày giờ:</label>
-            <input type="datetime-local" id="datetime" name="datetime">
-        </div>
+        <label for="datetime">Chọn ngày giờ:</label>
+        <input type="datetime-local" id="datetime" name="datetime"> <br>
 
-        <div>
-            <label for="service">Loại dịch vụ:</label>
-            <select id="service" name="service">
-                <option value="tu-van">Tư vấn học tập</option>
-                <option value="huong-nghiep">Hướng nghiệp</option>
-            </select>
-        </div>
+        <label for="service">Loại dịch vụ:</label>
+        <select id="service" name="service">
+            <option value="tu-van">Tư vấn học tập</option>
+            <option value="huong-nghiep">Hướng nghiệp</option>
+        </select> <br>
 
-        <div>
-            <label for="note">Ghi chú:</label>
-            <textarea id="note" name="note"></textarea>
-        </div>
+        <label for="note" style="vertical-align: top;">Ghi chú:</label>
+        <textarea id="note" name="note"></textarea> <br>
 
-        <div>
-            <button type="submit">Đặt lịch</button>
-        </div>
+        <button type="submit">Đặt lịch</button>
     </form>
 </body>
 </html>

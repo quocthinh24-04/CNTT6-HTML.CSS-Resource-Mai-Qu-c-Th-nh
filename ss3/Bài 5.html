@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="#" method="post">
+        <table cellpadding="5">
+            <tr>
+                <td><label for="hoten">Họ và tên:</label></td>
+                <td><input type="text" id="hoten" name="hoten" style="width: 250px;"></td>
+            </tr>
+
+            <tr>
+                <td><label for="ngaysinh">Ngày sinh:</label></td>
+                <td><input type="date" id="ngaysinh" name="ngaysinh"></td>
+            </tr>
+
+            <tr>
+                <td>Giới tính:</td>
+                <td>
+                    <input type="radio" id="nam" name="gioitinh" value="nam">
+                    <label for="nam">Nam</label>
+                    
+                    <input type="radio" id="nu" name="gioitinh" value="nu">
+                    <label for="nu">Nữ</label>
+                </td>
+            </tr>
+
+            <tr>
+                <td><label for="sdt">Số điện thoại:</label></td>
+                <td><input type="tel" id="sdt" name="sdt" style="width: 250px;"></td>
+            </tr>
+
+            <tr>
+                <td><label for="email">Email:</label></td>
+                <td><input type="email" id="email" name="email" style="width: 250px;"></td>
+            </tr>
+
+            <tr>
+                <td><label for="diachi">Địa chỉ:</label></td>
+                <td><textarea id="diachi" name="diachi" rows="3" cols="30"></textarea></td>
+            </tr>
+
+            <tr>
+                <td><label for="vaitro">Vai trò trong nhóm:</label></td>
+                <td>
+                    <select id="vaitro" name="vaitro">
+                        <option value="thanhvien">Thành viên</option>
+                        <option value="photnhom">Phó nhóm</option>
+                        <option value="truongnhom">Trưởng nhóm</option>
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td><label for="sothich">Sở thích:</label></td>
+                <td><input type="text" id="sothich" name="sothich" style="width: 250px;"></td>
+            </tr>
+
+            <tr>
+                <td><label for="kynang">Kỹ năng:</label></td>
+                <td><textarea id="kynang" name="kynang" rows="3" cols="30"></textarea></td>
+            </tr>
+
+            <tr>
+                <td>Thời gian rảnh:</td>
+                <td>
+                    <input type="checkbox" id="sang" name="thoigian" value="sang">
+                    <label for="sang">Sáng</label>
+
+                    <input type="checkbox" id="chieu" name="thoigian" value="chieu">
+                    <label for="chieu">Chiều</label>
+
+                    <input type="checkbox" id="toi" name="thoigian" value="toi">
+                    <label for="toi">Tối</label>
+                </td>
+            </tr>
+
+            <tr>
+                <td><label for="lydo">Lý do tham gia nhóm:</label></td>
+                <td><textarea id="lydo" name="lydo" rows="3" cols="30"></textarea></td>
+            </tr>
+
+            <tr>
+                <td><label for="mau">Màu yêu thích:</label></td>
+                <td><input type="color" id="mau" name="mau"></td>
+            </tr>
+
+            <tr>
+                <td>Đăng ký nhận bản tin:</td>
+                <td>
+                    <input type="checkbox" id="bantin" name="bantin" value="co">
+                    <label for="bantin">Có</label>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Nhận thông báo qua email:</td>
+                <td>
+                    <input type="radio" id="qua_email" name="thongbao" value="email">
+                    <label for="qua_email">Email</label>
+
+                    <input type="radio" id="qua_sms" name="thongbao" value="sms">
+                    <label for="qua_sms">SMS</label>
+                </td>
+            </tr>
+
+            <tr>
+                <td></td>
+                <td>
+                    <br>
+                    <button type="submit">Đăng ký thành viên</button>
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>

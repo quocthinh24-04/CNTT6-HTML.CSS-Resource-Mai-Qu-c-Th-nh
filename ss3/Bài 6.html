@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="#" method="post">
+        <table cellpadding="5">
+            <tr>
+                <td><label for="hoten">Họ và tên:</label></td>
+                <td><input type="text" id="hoten" name="hoten" style="width: 250px;"></td>
+            </tr>
+            <tr>
+                <td><label for="ngaysinh">Ngày sinh:</label></td>
+                <td><input type="date" id="ngaysinh" name="ngaysinh"></td>
+            </tr>
+            <tr>
+                <td>Giới tính:</td>
+                <td>
+                    <input type="radio" id="nam" name="gioitinh" value="nam"> <label for="nam">Nam</label>
+                    <input type="radio" id="nu" name="gioitinh" value="nu"> <label for="nu">Nữ</label>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="sdt">Số điện thoại:</label></td>
+                <td><input type="tel" id="sdt" name="sdt" style="width: 250px;"></td>
+            </tr>
+            <tr>
+                <td><label for="email">Email:</label></td>
+                <td><input type="email" id="email" name="email" style="width: 250px;"></td>
+            </tr>
+            
+            <tr>
+                <td><label for="tencty">Tên công ty:</label></td>
+                <td><input type="text" id="tencty" name="tencty" style="width: 250px;"></td>
+            </tr>
+            <tr>
+                <td><label for="vaitro">Vai trò trong công ty:</label></td>
+                <td>
+                    <select id="vaitro" name="vaitro" style="width: 200px;">
+                        <option value="ceo">Giám đốc điều hành (CEO)</option>
+                        <option value="giamdoc">Giám đốc khối</option>
+                        <option value="quanly">Quản lý cấp cao</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="quymo">Quy mô công ty:</label></td>
+                <td>
+                    <select id="quymo" name="quymo" style="width: 200px;">
+                        <option value="nho">Doanh nghiệp nhỏ</option>
+                        <option value="vua">Doanh nghiệp vừa</option>
+                        <option value="lon">Tập đoàn lớn</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="nganhnghe">Ngành nghề công ty:</label></td>
+                <td><input type="text" id="nganhnghe" name="nganhnghe" style="width: 250px;"></td>
+            </tr>
+            
+            <tr>
+                <td><label for="lydo">Lý do tham gia câu lạc bộ:</label></td>
+                <td><textarea id="lydo" name="lydo" rows="3" cols="32"></textarea></td>
+            </tr>
+            <tr>
+                <td><label for="kinhnghiem">Kinh nghiệm lãnh đạo:</label></td>
+                <td><textarea id="kinhnghiem" name="kinhnghiem" rows="3" cols="32"></textarea></td>
+            </tr>
+            <tr>
+                <td><label for="muctieu">Mục tiêu khi tham gia câu lạc bộ:</label></td>
+                <td><textarea id="muctieu" name="muctieu" rows="3" cols="32"></textarea></td>
+            </tr>
+
+            <tr>
+                <td>Chương trình sự kiện mong muốn tham gia:</td>
+                <td>
+                    <input type="checkbox" id="net" name="su_kien" value="networking"> <label for="net">Networking</label>
+                    <input type="checkbox" id="work" name="su_kien" value="workshops"> <label for="work">Workshops</label>
+                    <input type="checkbox" id="hoi" name="su_kien" value="hoithao"> <label for="hoi">Hội thảo</label>
+                </td>
+            </tr>
+            <tr>
+                <td>Đăng ký nhận bản tin:</td>
+                <td>
+                    <input type="checkbox" id="bantin" name="bantin" value="co"> <label for="bantin">Có</label>
+                </td>
+            </tr>
+
+            <tr>
+                <td></td>
+                <td>
+                    <br>
+                    <button type="submit">Đăng ký hội viên</button>
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Ý Kiến Phản Hồi tới Nha Sỹ</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        .feedback-form {
+            text-align: center;
+            width: 400px;
+        }
+
+        /* Màu nền tiêu đề biểu mẫu: #1e90ff */
+        h2 {
+            color: #1e90ff;
+            margin-bottom: 20px;
+        }
+
+        .form-group {
+            margin-bottom: 15px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+            font-size: 16px;
+        }
+
+        /* Màu viền input và textarea: #1e90ff */
+        input[type="text"],
+        input[type="email"],
+        textarea {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #1e90ff;
+            border-radius: 4px;
+            box-sizing: border-box; /* Đảm bảo padding không làm tràn khung */
+            outline: none;
+        }
+
+        textarea {
+            height: 100px;
+            resize: vertical;
+        }
+
+        /* Màu nút "Gửi ý kiến": #00bfff */
+        .btn-submit {
+            background-color: #00bfff;
+            color: white;
+            padding: 10px 20px;
+            border: 1px solid #000; /* Có viền đen mỏng theo hình mẫu */
+            cursor: pointer;
+            font-weight: bold;
+            font-size: 16px;
+            margin-top: 10px;
+        }
+
+        .btn-submit:hover {
+            opacity: 0.8;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="feedback-form">
+        <h2>Ý Kiến Phản Hồi tới Nha Sỹ</h2>
+
+        <div class="form-group">
+            <label for="name">Họ và tên:</label>
+            <input type="text" id="name" placeholder="Nhập họ và tên">
+        </div>
+
+        <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" id="email" placeholder="Nhập email của bạn">
+        </div>
+
+        <div class="form-group">
+            <label for="comment">Phản hồi của bạn:</label>
+            <textarea id="comment" placeholder="Nhập ý kiến của bạn..."></textarea>
+        </div>
+
+        <button type="submit" class="btn-submit">Gửi ý kiến</button>
+    </div>
+
+</body>
+</html>

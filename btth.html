@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+       }
+        body {
+           background-color:  #F4F7FC;
+           margin: 0;
+            padding: 10px 30px 30px 40px ;
+            box-sizing: border-box;
+           
+        }
+        header {
+            background-color:#0C62E0 ;
+            color: #fff;
+            display: flex;
+            justify-content: space-around;
+            padding: 20px;
+            align-items: center;
+
+        }
+       
+        input {
+            height: 40px;
+            width:100px ;
+            background-color: #1c73f5;
+            border: none;
+            border-radius: 30px;
+        }
+        #title {
+            font-weight: bold;
+            font-size: 40px;
+        }
+        a {
+            font-size: 20px;
+            text-decoration: none;
+            color: #ffffff;
+            margin:  20px;
+        }
+        .hero-section {
+            height: 150px;
+            width: 1400px;
+            background-color: #ffffff;
+            border-radius: 20px;
+            margin-top: 30px;
+            display: flex;
+            justify-content: space-between;
+            padding: 20px;
+            
+
+          
+        }
+        h2 {
+            color: #3168e8;
+            font-weight: bold;
+            font-size: 30px;
+            position: relative;
+            left: 170px;
+        }
+        .one-section {
+            display: flex;
+            justify-content:center;
+            padding: 10px 20px 30px 50px ;
+        }
+         .one-section div {
+            background-color: #ffffff;
+            margin: 20px;
+            border-radius: 20px;
+            width: 500px;
+            text-align: center;
+            box-shadow: 10px 10px 10px color(rgba rgba(255, 0, 0, 0.138) green blue);
+         }
+         img {
+            width: 100%;
+            padding: 0px;
+          border-radius:20px 20px 0px 0px;
+          height: 200px;
+         }
+          .one-section input {
+            border-radius: 10px;
+            width: 90%;
+            margin-bottom: 10px;
+          }
+          .two-section {
+             display: flex;
+            justify-content:center;
+            padding: 10px 20px 30px 50px ;
+          }
+          .two-section div {
+            background-color: #fff;
+            margin: 20px;
+            border-radius: 20px;
+            width: 600px;
+            text-align: center;
+          }
+          .two-section input {
+            border-radius: 10px;
+            width: 90%;
+            margin-bottom: 10px;
+          }
+          #care {
+            width: 180px;
+            height: 20px;
+            background-color: #F4F7FC;
+            border-left: 170px solid blue;
+            border-radius: 10px;
+          }
+          #one {
+            width: 500px;
+          }
+          @media (max-width: 964px) {
+
+            .one-section  {
+                display: flex;
+                justify-content: left;
+                flex-wrap: wrap;
+                padding: 0px;
+                margin: 0px;
+             }
+             .one-section div {
+           
+            
+            width: 350px;
+            }
+        }
+             .one-section div {
+           
+            
+            width: 350px;
+            
+            
+          }
+           @media (max-width: 768px) {
+            
+            #one {
+
+                display: none;
+            }
+           }
+           @media (max-width: 749px) {
+            .two-section  {
+                display: flex;
+                justify-content: left;
+                flex-wrap: wrap;
+                padding: 0px;
+                margin: 0px;
+             }
+             .one-section div {
+           
+            
+            width: 100%;
+            }
+           }
+
+    </style>
+</head>
+<body>
+    <header>
+        <div id="title">Elearning</div>
+        <div>
+            <input id="one" type="search" placeholder="Tìm khóa học...">
+        </div>
+        <nav>
+            <a href="">Khóa học</a>
+            <a href="">Tiến độ</a>
+            <a href="">Hồ sơ</a>
+        </nav>
+    </header>
+    <main>
+        <section class="hero-section">
+            <div>
+                <h1>Xin chào, Bạn tôi!</h1>
+            <p>Chúc bạn học tập hiệu quả hôm nay</p>
+            </div>
+            <div>
+                <p>Tiến độ tổng: 68%</p>
+                <div id="care"></div>
+            </div>
+        </section>
+        <h2>Khóa học đang học</h2>
+       <section class="one-section">
+        <div> 
+            <img src="https://picsum.photos/400/250?random=1" alt="">
+            <h3>CSS Flexbox & Grid</h3>
+            <p>Hoàn thành: 85%</p>
+            <input type="submit" value="Tiếp tục học">
+        </div>
+        <div>
+            <img src="https://picsum.photos/400/250?random=2" alt="">
+            <h3>JavaScript Cơ bản</h3>
+            <p>Hoàn thành: 42%</p>
+            <input type="submit" value="Tiếp tục học">
+        </div>
+        <div>
+            <img src="https://picsum.photos/400/250?random=3" alt="">
+           <h3>Responsive Web Design</h3>
+           <p>Hoàn thành: 95%</p>
+           <input type="submit" value="Tiếp tục học">
+        </div>
+       </section>
+       <h2>Khóa học gợi ý</h2>
+       <section class="two-section">
+        <div>
+            <img src="https://picsum.photos/400/250?random=4" alt="">
+            <h3>React cho người mới</h3>
+            <p>Bắt đầu ngay hôm nay</p>
+            <input type="submit" value="Xem chi tiết">
+        </div>
+        <div>
+            <img src="https://picsum.photos/400/250?random=5" alt="">
+            <h3>Python Cơ bản</h3>
+            <p>Phù hợp beginner</p>
+             <input type="submit" value="Xem chi tiết">
+        </div>
+       </section>
+    </main>
+    <footer></footer>
+</body>
+</html>

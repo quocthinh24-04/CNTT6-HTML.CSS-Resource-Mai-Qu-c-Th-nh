@@ -43,11 +43,13 @@
         .first{
             background-color: #6366F1;
             display: flex;
-            justify-content: space-around;
+            justify-content: center;
             padding: 140px;
+            gap: 120px;
         }
         .one{
             color: #FFFFFF;
+            margin-top: 60px;
         }
         button{
             background-color: #6366F1;
@@ -70,14 +72,77 @@
             width: 500px;
             height: 200px;
             text-align: center;
-            padding: 50px;
+            padding: 60px;
+            margin-bottom: 20px;
         }
+        .e1{
+            background-color: #FFFFFF;
+            border-radius: 12px;
+            width: 240px;
+            height: 200px;
+            text-align: center;
+            padding: 60px;
+            margin-right: 20px;
+        }
+        .e2{
+            background-color: #FFFFFF;
+            border-radius: 12px;
+            width: 240px;
+            height: 200px;
+            text-align: center;
+            padding: 60px;
+        }
+        .t{
+            font-size: 40px;
+            margin-bottom: 20px;
+        }
+        .r{
+            font-weight: bold;
+        }
+        .p1{
+            font-size: 18px;
+            margin-bottom: 20px;
+        }
+        h2{
+            color:#6366F1 ;
+            margin-bottom: 10px;
+            margin-top: 30px;
+        }
+         .one-section {
+        width: 100%;
+        height: 500px;
+        background-color:  #F9FAFB;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        text-align: center;
+       }
+       .father {
+        display: flex;
+        justify-content: center;
+       }
+       .child {
+        width: 200px;
+        height: 300px;
+       background-color: #ffff;
+       border-radius: 12px ;
+       display: flex;
+       flex-direction: column;
+       justify-content:center;
+       margin: 20px;
+       border-radius: 20px;
+       }
+      
+       #child-special {
+        position: relative ;
+        top: 20px;
+       }
     </style>
 </head>
 <body>
     <header>
         <img src="Rikkei Education Logo.png" alt="">
-        <nav>
+        <nav class="r">
             <a href="">Trang chủ</a>
             <a href="">Khóa học</a>
             <a href="">Giới thiệu</a>
@@ -91,8 +156,8 @@
     <main>
         <div class="first">
             <div class="one">
-                <h1>Học Tập Không Giới <br> Hạn</h1>
-                <p>Khám phá hàng nghìn khóa học chất lượng cao từ các <br>chuyên gia hàng đầu. Nâng cao kỹ năng và phát triển sự <br>nghiệp của bạn ngay hôm nay.</p>
+                <h1 class="t">Học Tập Không Giới <br> Hạn</h1>
+                <p class="p1">Khám phá hàng nghìn khóa học chất lượng cao từ các <br>chuyên gia hàng đầu. Nâng cao kỹ năng và phát triển sự <br>nghiệp của bạn ngay hôm nay.</p>
                 <button class="q">Khám phá khóa học</button>
                 <button class="w">Tìm hiểu thêm</button>
             </div>
@@ -103,11 +168,12 @@
                     <p>Khóa học</p>
                 </div>
                 <div class="e">
-                <div>
+                <div class="e1">
+                    <br>
                     <h2>50,000+</h2>
                     <p>Học viên</p>
                 </div>
-                <div>
+                <div class="e2">
                     <p>⭐</p>
                     <h2>4.8/5</h2>
                     <p>Đánh giá</p>
@@ -115,6 +181,108 @@
                 </div>
             </div>
         </div>
+      </section>
+        <section class="one-section">
+            <h2>Tại Sao Chọn Rikkei Education?</h2>
+            
+            <div class="father">
+                <div class="child">
+                <p>🎯</p>
+                <br>
+            
+                <h4>Học Linh Hoạt</h4>
+            <br>
+            <p>Học mọi lúc, mọi nơi
+            với nền tảng trực tuyến
+             tiện lợi</p>
+             </div>
+             <div class="child" id="child-special">
+                       <h4>Giảng Viên Chuyên Nghiệp</h4>
+                       <br>
+                       <p>Đội ngũ giảng viên giàu kinh nghiệm và tận tâm</p>
+             </div >
+             <div class="child">
+                <p>📜</p>
+                <br>
+                <h4>Chứng Chỉ Tín</h4>
+                <br>
+                <p>Nhận chứng chỉ được công nhận sau khi hoàn thành</p>
+             </div>
+             <div class="child">
+                <p>💰</p>
+                <br>
+                <h4>Giá Cả Hợp Lý</h4>
+                <br>
+                <p>Chi phí phải chăng nhiều ưu đãi hấp dẫn </p>
+             </div>
+              </div>
+        </section>
+        <section>
+            <h2>Khóa Học Nổi Bật</h2>
+            <p>Khám phá các khóa học được yêu thích nhất</p>
+            <div>
+                <div>
+                    <img src="" alt="">
+                    <span></span>
+                    <h5></h5>
+                    <p></p>
+                    <div>
+                        <p></p>
+                        <p></p>
+                        <p></p>
+                    </div>
+                    <hr>
+                    <span></span>
+                    <p></p>
+                    <input type="submit" value="Đăng ký ngay">
+
+                </div>
+                <div>
+                    <img src="" alt="">
+                    <span></span>
+                    <h5></h5>
+                    <p></p>
+                    <div>
+                        <p></p>
+                        <p></p>
+                        <p></p>
+                    </div>
+                    <hr>
+                    <span></span>
+                    <p></p>
+                    <input type="submit" value="Đăng ký ngay">
+                </div>
+                <div>
+                    <img src="" alt="">
+                    <span></span>
+                    <h5></h5>
+                    <p></p>
+                    <div>
+                        <p></p>
+                        <p></p>
+                        <p></p>
+                    </div>
+                    <hr>
+                    <span></span>
+                    <p></p>
+                    <input type="submit" value="Đăng ký ngay">
+                </div>
+            </div>
+           
+            <div>
+                <div>
+
+                </div>
+                <div>
+
+                </div>
+                <div>
+                    
+                </div>
+            </div>
+            
+        </section>
     </main>
+    <footer></footer>
 </body>
 </html>
